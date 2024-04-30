@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "278324313465",
+    "project_id": "securityprotection-924d9",
+    "storage_bucket": "securityprotection-924d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278324313465:android:d43c575834e76964dd03a8",
+        "android_client_info": {
+          "package_name": "com.axsonstech.security"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFe_nIr6c6YcJMqgW4jWHKoInyMyKrQ0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

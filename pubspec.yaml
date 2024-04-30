@@ -1,0 +1,53 @@
+name: talha_s_app
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  flutter_login_facebook: ^1.9.0
+  dio: ^5.4.0
+  get: ^4.6.6
+  shared_preferences: ^2.2.2
+  connectivity_plus: ^5.0.2
+  staggered_grid_view_flutter: ^0.0.4
+  intl: ^0.18.0
+  qr_code_scanner: ^1.0.1
+  fluttertoast: ^8.0.8
+  firebase_core: ^2.30.1
+  firebase_auth: ^4.5.0
+  cloud_firestore: ^4.17.2
+
+
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Inika
+      fonts: 
+        - asset: assets/fonts/InikaBold.ttf
+          weight: 700
+        - asset: assets/fonts/Inika.ttf
+          weight: 400
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsBold.ttf
+          weight: 700
+    - family: Nunito
+      fonts: 
+        - asset: assets/fonts/NunitoBold.ttf
+          weight: 700
