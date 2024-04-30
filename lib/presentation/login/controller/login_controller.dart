@@ -27,7 +27,7 @@ class LoginController extends GetxController {
       );
       print("User signed in: ${userCredential.user!.email}");
       prefUtils.storeData('email', userName.text);
-      Get.offNamed(AppRoutes.homeOneContainerPage);
+      Get.offAllNamed(AppRoutes.homeOneContainerPage);
     } catch (err) {
       showSnackbar('Info', 'Invalid Credentials');
     } finally {

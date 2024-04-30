@@ -48,7 +48,7 @@ class ProfileController extends GetxController {
       isLoading.value = true;
       prefUtils.storeData('email', '');
       isLoading.value = false;
-      Get.offNamed(AppRoutes.initialRoute);
+      Get.offAllNamed(AppRoutes.initialRoute);
     } catch (e) {
       isLoading.value = false;
     }
